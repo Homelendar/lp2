@@ -1,1 +1,62 @@
-sdfds
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1920px;
+    padding: 16px 20px;
+    margin: 0 auto;
+    background-color: #161616;
+}  
+
+.burger_menu { //
+    &:hover {
+        .nav {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}
+
+.burgers_img { // 
+        @media screen {
+            
+        }
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    a {
+        color: #fff;
+    }
+}
+
+.first_buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.min_but {
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    background-color: transparent;
+}
+
+.black_button {
+    border-radius: 15px;
+    border: 2px solid #fff;
+    background-color: #161616;
+    padding: 21px 95px;
+    gap: 10px;
+    color: #fff;
+}
