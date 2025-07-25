@@ -19,8 +19,36 @@ function App() {
                     Sign up
                 </button>
             </div>
-
         </header>
+        <div className='hero'>
+            <div className='hero_section'>
+                <span>
+                    TRUSTED INVESTMENT PLATFORM
+                </span>
+                <h1>
+                    Earn in comfort and safety
+                </h1>
+            </div>
+            <div className='hero_section'>
+                <p>
+                    We provide you with a synthesis of the best features and convenient trading. Enjoy trading with our modernized platform.
+                </p>
+                <div className='buttons_first'>
+                    <button className='green_but'>
+                        <span className='white'>
+                            Start Trading
+                        </span>
+                        <img src={require('./images/img_but_micro.svg').default} alt="" />
+                    </button>
+                    <button className='demo_btn'>
+                        Try out the Demo
+                    </button>
+                </div>
+            </div>
+             <div className='img_group'>
+                <img src={require('./images/img_group.png')} alt="" />
+            </div>
+        </div>
   </div>
   );
 }

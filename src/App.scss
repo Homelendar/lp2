@@ -9,6 +9,7 @@ header {
     align-items: center;
     justify-content: space-between;
     max-width: 1920px;
+    width: 100%;
     padding: 16px 20px;
     margin: 0 auto;
     background-color: #161616;
@@ -59,4 +60,73 @@ header {
     padding: 21px 95px;
     gap: 10px;
     color: #fff;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #0d0d0d;
+  color: #ffffff;
+  padding: 80px 40px;
+  gap: 40px;
+}
+
+.hero_section {
+    width: 100%;
+    max-width: 604px;
+    padding: 30px 60px;
+
+    span {
+        color: #306A47;
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-weight: 600;
+        font-size: 88px;
+        color: #fff;
+    }
+
+    p {
+        font-weight: 700;
+        font-size: 24px;
+        color: #717171;
+        margin-bottom: 38px;
+    }
+}
+
+.buttons_first {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.green_but {
+    background-color: #58BD7D;
+    padding: 21px 32px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 18px;
+
+    &.white {
+        color: #fff;
+    }
+}
+
+.demo_btn {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.img_group {
+    width: 100%;
+    
 }
