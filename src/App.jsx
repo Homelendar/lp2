@@ -62,17 +62,44 @@ function App() {
                 <img src={require('./images/bloc_img.svg').default} alt="" />
             </div>
         </div>
-        <div>
-            <div>
+    <div className="platform">
+        <div className="platform__container">
+            <div className="platform__text">
                 <h2>
                     Unique platform for comfortable trading from anywhere in the world
                 </h2>
                 <p>
-                    COMPANY NAME is an award-winning platform that allows you to trade the world's financial markets.
+                    <span>COMPANY NAME</span> is an award-winning platform that allows you to trade the world’s financial markets.
                 </p>
-
             </div>
-        </div>   
+            <div className="platform__stats">
+                <div className="platform__stat-item">
+                    <h3>
+                        2M
+                    </h3>
+                    <p>
+                        Total users
+                    </p>
+                    <img className='plus' src={require('./images/+.svg').default} alt="" />
+                </div>
+                <div className="platform__stat-item">
+                    <h3>
+                        341
+                    </h3>
+                    <p>
+                        Orders in the last 24 hours
+                    </p>
+                    <h3>
+                        720
+                    </h3>
+                </div>
+                <div className="platform__stat-item">
+                    <img className='plus' src={require('./images/+.svg').default} alt="" />
+                    <p>Instruments</p>
+                </div>
+            </div>
+        </div>
+    </div>
   </div>
   );
 }
