@@ -105,6 +105,62 @@ function App() {
             <div className='binan_img'>
                 <img src={require('./images/trade_binan_img.png')} alt="" />
             </div>
+            <div className='benefits'>
+                <div className='benefits__header'>
+                    <h2>
+                        Take advantage of the many benefits of our trading platform
+                    </h2>
+                </div>
+                <div className='benefits__description'>
+                    <p>
+                        COMPANY NAME's platform, web trader, and applications for mobile devices and tablets give you the ability to trade anywhere in the world and at any time.
+                    </p>
+                    <button className='benefits__button'>
+                        <span>
+                            Start Trading
+                        </span>
+                        <img src={require('./images/arrow.svg').default} alt="" />
+                    </button>
+                </div>
+            </div>
+            <div className='benefits_cards'>
+                <div className='benefits__feature'>
+                    <img src={require('./images/hand_img.svg').default} alt="" />
+                    <h3>
+                        Free account opening
+                    </h3>
+                    <p>
+                        You do not pay for opening and subsequent maintenance of your cryptocurrency account
+                    </p>
+                </div>
+                <div className='benefits__feature'>
+                    <img src={require('./images/phone_img.svg').default} alt="" />
+                    <h3>
+                        24/7 Support
+                    </h3>
+                    <p>
+                        You work with your investment manager to help you make effective financial decisions
+                    </p>
+                </div>
+                <div className='benefits__feature'>
+                    <img src={require('./images/rozetka.svg').default} alt="" />
+                    <h3>
+                        Real-time trading
+                    </h3>
+                    <p>
+                        Trade cryptocurrencies, S&P 500, metals, and other assets at your fingertips.
+                    </p>
+                </div>
+                <div className='benefits__feature'>
+                    <img src={require('./images/money.svg').default} alt="" />
+                    <h3>
+                        Investments of any amount
+                    </h3>
+                    <p>
+                        The minimum amount depends on the selected investment instrument (value of the cryptocurrency asset)
+                    </p>
+                </div>
+            </div>
   </div>
   );
 }
