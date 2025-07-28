@@ -177,3 +177,91 @@ header {
     }
 }
 
+.platforma {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 166px;
+    width: 100%;
+    max-width: 1640px;
+    padding: 90px 0px;
+    margin: 0 auto;
+}
+
+.stat_heading {
+    width: 100%;
+    max-width: 745px;
+
+    h2 {
+        color: #080808;
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 135%;
+    }
+}
+
+.text_calculation {
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 auto;
+}
+
+.text_company {
+    width: 100%;
+    margin: 0 auto;
+    
+    p {
+        font-weight: 700;
+        font-size: 24px;
+        color: #717171;
+        margin-bottom: 42px;
+    }
+
+}
+
+.calculation {
+    display: flex;
+    gap: 60px;
+    width: 100%;
+    max-width: 729px;
+    margin: 0 auto;
+}
+
+.text_numbers {
+
+    p {
+        font-weight: 700;
+        font-size: 18px;
+        color: #717171;
+        margin-top: 10px;
+        line-height: 135%;
+    }
+
+    span {
+        font-weight: 600;
+        font-size: 52px;
+        color: #080808;
+
+        &.plus {
+            color: #58BD7D;
+        }
+    }
+}
+
+.binan_img {
+
+    padding: 80px 60px;
+    width: 100%;
+    max-width: 1578px;
+    margin: 0 auto;
+
+    img {
+        width: 100%;
+        object-fit: contain;
+        object-position: center;
+    }
+}
+
+
+
+
