@@ -115,8 +115,8 @@ function App() {
                     <p>
                         COMPANY NAME's platform, web trader, and applications for mobile devices and tablets give you the ability to trade anywhere in the world and at any time.
                     </p>
-                    <button className='benefits__button'>
-                        <span>
+                    <button className='benefits_button spi'>
+                        <span className='spi'>
                             Start Trading
                         </span>
                         <img src={require('./images/arrow.svg').default} alt="" />
@@ -125,7 +125,7 @@ function App() {
             </div>
             <div className='benefits_cards'>
                 <div className='benefits__feature'>
-                    <img src={require('./images/hand_img.svg').default} alt="" />
+                    <img className='img_cards' src={require('./images/hand_img.svg').default} alt="" />
                     <h3>
                         Free account opening
                     </h3>
@@ -134,7 +134,7 @@ function App() {
                     </p>
                 </div>
                 <div className='benefits__feature'>
-                    <img src={require('./images/phone_img.svg').default} alt="" />
+                    <img className='img_cards' src={require('./images/phone_img.svg').default} alt="" />
                     <h3>
                         24/7 Support
                     </h3>
@@ -143,7 +143,7 @@ function App() {
                     </p>
                 </div>
                 <div className='benefits__feature'>
-                    <img src={require('./images/rozetka.svg').default} alt="" />
+                    <img className='img_cards' src={require('./images/rozetka.svg').default} alt="" />
                     <h3>
                         Real-time trading
                     </h3>
@@ -152,7 +152,7 @@ function App() {
                     </p>
                 </div>
                 <div className='benefits__feature'>
-                    <img src={require('./images/money.svg').default} alt="" />
+                    <img className='img_cards' src={require('./images/money.svg').default} alt="" />
                     <h3>
                         Investments of any amount
                     </h3>
