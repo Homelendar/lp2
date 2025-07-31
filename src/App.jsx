@@ -161,6 +161,102 @@ function App() {
                     </p>
                 </div>
             </div>
+            <div className='black_fitch'>
+                <div className='black_block'>
+                    <div className='play_span_block'>
+                        <div className='play_text'>
+                            <h3>
+                                Achieve your financial goals with COMPANY NAME
+                            </h3>
+                            <p className=''>
+                                Trade bitcoins, S&P 500, gold, EUR/USD and over 100 assets. Get easy access to cryptocurrencies, stock indices, commodities and Forex markets from a single account.
+                            </p>
+                        </div>
+                        <div className='block_text'>
+                            <span>
+                                We will help you achieve your goals
+                            </span>
+                            <p>
+                                You can trade at absolutely any time from absolutely anywhere in the world. In order to make your trading comfortable, our technical support specialists work 24/7.
+                            </p>
+                        </div>
+                       <div className='block_text'>
+                            <span>
+                                Quick transactions
+                            </span>
+                            <p>
+                                You can trade at absolutely any time from absolutely anywhere in the world. In order to make your trading comfortable, our technical support specialists work 24/7.
+                            </p>
+                        </div>
+                        <div className='block_text'>
+                            <span>
+                                Fair payouts
+                            </span>
+                            <p>
+                                You can trade at absolutely any time from absolutely anywhere in the world. In order to make your trading comfortable, our technical support specialists work 24/7.
+                            </p>
+                        </div>                    
+                    </div>
+                    <div className='black_img'>
+                        <img src={require('./images/pad_black.png')} alt="" />
+                    </div>
+                </div>
+            </div>
+            <div className='sixth_block'>
+                <div className='central_sixth'>
+                    <h3>
+                        Just 4 steps to open a trading account
+                    </h3>
+                </div>
+                <div className='sixth_text'>
+                    <p>
+                        After which you will be able to plunge into professional trading together with COMPANY NAME
+                    </p>
+                    <button className='farther_button'>
+                        <span>
+                            Sign up
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div className='group_numbers'>
+                <div className='numbers_cards'>
+                    <img className='img_numbers' src={require('./images/1.svg').default} alt="" />
+                    <span>
+                        Go to the <a href="#">registration page</a>
+                    </span>
+                    <p>
+                        To get started, go the registration section.
+                    </p>
+                </div>
+                <div className='numbers_cards'>
+                    <img className='img_numbers' src={require('./images/2.svg').default} alt="" />
+                    <span>
+                        Specify user details
+                    </span>
+                    <p>
+                        Enter the contact details of the new user and go to the personal account after successful registration.
+                    </p>
+                </div>
+                <div className='numbers_cards'>
+                    <img className='img_numbers' src={require('./images/3.svg').default} alt="" />
+                    <span>
+                        Make a deposit
+                    </span>
+                    <p>
+                        Fill your account through your personal cabinet in any convenient way, whether it's a credit card or a digital wallet.
+                    </p>
+                </div>
+                <div className='numbers_cards'>
+                    <img className='img_numbers' src={require('./images/4.svg').default} alt="" />
+                    <span>
+                        Start earning
+                    </span>
+                    <p>
+                        Start trading in any asset you like. You will have to choose from more than 250 instruments!
+                    </p>
+                </div>
+            </div>
   </div>
   );
 }
