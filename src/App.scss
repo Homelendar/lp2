@@ -483,6 +483,153 @@ header {
     margin-bottom: 40px;
 }
 
+map {
+    width: 100%;
+    max-width: 54px;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 40px;
+}
+
+.logistics {
+    width: 100%;
+    max-width: 1640px;
+    gap: 166px;
+    margin: 0 auto;
+    padding: 90px 20px;
+
+    h3 {
+        color: #080808;
+        font-weight: 600;
+        font-size: 46px;
+    }
+}
+
+.text_location {
+    width: 100%;
+    max-width: 1640px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 166px;
+    margin: 0 auto;
+    padding: 90px 20px;
+}
+
+.replick {
+
+    p {
+        color: #717171;
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 18px;
+        line-height: 150%;
+    }
+}
+
+.button_map {
+    background-color: #58BD7D;
+    color: #fff;
+    padding: 21px 92px;
+    border-radius: 15px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.data {
+    width: 33%;
+    max-width: 457px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 48px;
+
+    span {
+        font-weight: 600;
+        font-size: 28px;
+        color: #080808;
+        margin-bottom: 19px;
+    }
+
+    p {
+       font-weight: 400;
+       font-size: 18px;
+       color: #717171;
+       margin-bottom: 19px;
+    }
+
+    a {
+        color: #58BD7D;
+        font-weight: 700;
+        font-size: 22px;
+    }
+}
+
+footer {
+    background-color: #080808;
+    padding: 60px 120px;
+}
+
+.glav_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 22px;
+    border-bottom: 5px solid #212121;
+}
+
+.finite {
+    
+    p {
+        font-weight: 500;
+        font-size: 10px;
+        color: #828383;
+    }
+
+    span {
+        font-weight: 700;
+        font-size: 16px;
+        color: #828383;
+    }
+}
+
+.general_container {
+    display: flex;
+    gap: 80px;
+    padding: 86px 124px;
+}
+
+.offer_links {
+    display: block;
+    margin: 0 auto;
+
+    span {
+        font-weight: 600;
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 21px;
+    }
+
+    a {
+        color: #828383;
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+        margin-bottom: 21px;
+    }
+}
+
+.pp {
+    font-weight: 500;
+    font-size: 10px;
+    color: #828383;
+}
+
 
 
 

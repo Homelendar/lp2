@@ -257,6 +257,109 @@ function App() {
                     </p>
                 </div>
             </div>
+                <div className='logistics'>
+                    <div className='text_location'>
+                        <div className='text_h'>
+                            <h3>
+                                24/7 technical support. 
+                                Contact us anytime
+                            </h3>
+                        </div>
+                        <div className='replick'>
+                            <p>
+                                Our support works non-stop to ensure that you can contact our managers with any question you may have. We are ready to help you and give you sound advice for your success
+                            </p>
+                            <button className='button_map'>
+                                <span>
+                                    Sign up
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div className='map'>
+                        <img className='map_img' src={require('./images/white_group.png')} alt="" />
+                    </div>
+                    <div className='location'>
+                        <div className='data'>
+                            <span>
+                                E-Mail
+                            </span>
+                            <p>
+                                Write an email and you will be answered at any time of the day.
+                            </p>
+                            <a href="#">support@company-name.com</a>
+                        </div>
+                        <div className='data'>
+                            <span>
+                                Our Address
+                            </span>
+                            <p>
+                                Any questions? We're looking forward to your visit!
+                            </p>
+                            <a href="#">Russia, Moscow, Presnenskaya Embankment 12, Building 2, floor 12, office 37</a>
+                        </div>
+                        <div className='data'>
+                            <span>
+                                Phone Number
+                            </span>
+                            <p>
+                                Mon-Fri: 9:00 - 21:00 Moscow Time
+                            </p>
+                            <a href="#">+3 (712) 674 22 42</a>
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <div className='glav_links'>
+                        <div className='finite'>
+                            <img src={require('./images/Logo dark.svg').default} alt="" />
+                            <p>
+                                COMPANY NAME, as well as the web COMPANY-NAME.com, does not provide any services to citizens and residents of the United States, Belgium, Turkey, Israel, Syria, Sudan, Iran, North Korea, Japan, as well as other countries and jurisdictions where said services cannot be provided due to applicable laws.
+                            </p>
+                            <span>
+                                COMPANY NAME 2022 ©
+                            </span>
+                            <span>
+                                All rights reserved
+                            </span>
+                        </div>
+                        <div className='general_container'>
+                            <div className='offer_links' >
+                                <span>
+                                    Main
+                                </span>
+                                <a href="#">Sign up</a>
+                                <a href="#">Log into your account</a>
+                            </div>
+                            <div className='offer_links'>
+                                <span>
+                                    Marketplace
+                                </span>
+                                <a href="#">Real-Time Markets</a>
+                                <a href="#">Forex</a>
+                                <a href="#">Commodities</a>
+                                <a href="#">Stocks</a>
+                                <a href="#">Index</a>
+                                <a href="#">Cryptocurrencies</a>
+                            </div>
+                            <div className='offer_links'>
+                                <span>
+                                    Accounts and platforms
+                                </span>
+                                <a href="#">Account types</a>
+                                <a href="#">Our platform</a>
+                                <span>
+                                    FAQ
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='pp'>
+                        <p>
+                            Trading contracts for difference and currency pairs carries a high risk of loss due to the fact that such trading is realized through lending, which can lead to the complete loss of your capital. This type of trading is not suitable for all categories of investors. Click here for the full text of our Risk Warning and before you start trading, make sure that you understand all the risks, taking into account your experience in this area. If necessary, contact independent consultants. The information contained on this website and in the documents posted on it is of a general nature and does not take into account your personal circumstances, financial situation or needs. In order to assess whether trading in such financial assets is suitable for you, you should carefully study our Client Agreement and seek independent expert advice. COMPANY NAME is a trademark of COMPANY NAME LTD. Company Number: 26350 BC 2021 Registered Address: Suite 305, Griffith Corporate Center, Kingstown, St. Vincent and the Grenadines. COMPANY-NAME.com transactions are processed by Dotwallet OÜ. Company number: 16253252. Registration address: Harju maakond, Tallinn, Kesklinna linnaosa, Tuukri tn 19-315, 10120, Estonia. COMPANY-NAME.com © 2022 - All rights reserved.
+                        </p>
+                    </div>
+                </footer>
   </div>
   );
 }
