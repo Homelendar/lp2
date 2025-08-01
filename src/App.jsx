@@ -312,16 +312,18 @@ function App() {
                 <footer>
                     <div className='glav_links'>
                         <div className='finite'>
-                            <img src={require('./images/Logo dark.svg').default} alt="" />
+                            <img className='img_logo' src={require('./images/Logo dark.svg').default} alt="" />
                             <p>
                                 COMPANY NAME, as well as the web COMPANY-NAME.com, does not provide any services to citizens and residents of the United States, Belgium, Turkey, Israel, Syria, Sudan, Iran, North Korea, Japan, as well as other countries and jurisdictions where said services cannot be provided due to applicable laws.
                             </p>
-                            <span>
-                                COMPANY NAME 2022 ©
-                            </span>
-                            <span>
-                                All rights reserved
-                            </span>
+                            <div className='span_engine'>
+                                <span>
+                                    COMPANY NAME 2022 ©
+                                </span>
+                                <span>
+                                    All rights reserved
+                                </span>
+                            </div>
                         </div>
                         <div className='general_container'>
                             <div className='offer_links' >
