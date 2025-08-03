@@ -5,14 +5,25 @@ function App() {
   <div className="App">
         <header>
             <div className='header_section'>
-                    <img src={require('./images/Logo dark.svg').default} alt="" />
-                <div className='nav'>
-                    <a href="">About Us</a>
-                    <a href="">Marketplace</a>
-                    <a href="">Accounts and Platforms</a>
-                    <a href="">FAQ</a>
+                <img src={require('./images/Logo dark.svg').default} alt="" />
+                <div className='burger_menu'>
+                    <img className='burger_img' src={require('./images/burger_img.svg').default} alt="" />
+                    <div className='nav'>
+                        <a href="">About Us</a>
+                        <a href="">Marketplace</a>
+                        <a href="">Accounts and Platforms</a>
+                        <a href="">FAQ</a>
+                        <div className='first_buttons mobile'>
+                            <button className='min_but'>
+                                Log in
+                            </button>
+                            <button className='black_button'>
+                                Sign up
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div className='first_buttons'>
+                <div className='first_buttons desktop'>
                     <button className='min_but'>
                         Log in
                     </button>
@@ -49,7 +60,8 @@ function App() {
             </div>
         </div>
         <div className='img_group'>
-             <img className='img_group_wan' src={require('./images/img_group.png')} alt="" />
+            <img className='img_group_wan desktop' src={require('./images/img_group.png')} alt="" />
+            <img className='img_group_wan mobile' src={require('./images/group_img_adap.svg').default} alt="" />
         </div>
         <div className='second_section'>
             <h2>
@@ -198,7 +210,7 @@ function App() {
                         </div>                    
                     </div>
                     <div className='black_img'>
-                        <img src={require('./images/pad_black.png')} alt="" />
+                        <img className='trading_img' src={require('./images/pad_black.png')} alt="" />
                     </div>
                 </div>
             </div>
