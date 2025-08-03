@@ -8,6 +8,21 @@ header {
     background-color: #161616;
 }
 
+.burger_menu {
+    &:hover {
+        .nav {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    .burger_img {
+        @media screen and (min-width: 1201px) {
+            display: none;
+        }
+    }
+}
+
 .header_section {
     display: flex;
     align-items: center;
@@ -18,19 +33,8 @@ header {
     margin: 0 auto;
 }
 
-.burger_menu { //
-    &:hover {
-        .nav {
-            opacity: 1;
-            visibility: visible;
-        }
-    }
-}
-
-.burgers_img { // 
-        @media screen {
-            
-        }
+@media screen {
+    
 }
 
 .nav {
